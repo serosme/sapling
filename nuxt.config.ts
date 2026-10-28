@@ -12,6 +12,7 @@ export default defineNuxtConfig({
   },
 
   runtimeConfig: {
+    apiToken: '',
     ai: {
       baseURL: '',
       apiKey: '',
