@@ -8,5 +8,11 @@
     "enabled": true,
     "logs": { "invocation_logs": true },
     "traces": { "enabled": true }
-  }
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "sapling-d1"
+    }
+  ]
 }
