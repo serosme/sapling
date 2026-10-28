@@ -7,3 +7,4 @@ shellEmulator: true
 
 allowBuilds:
   esbuild: true
+  workerd: true
