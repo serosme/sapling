@@ -10,4 +10,12 @@ export default defineNuxtConfig({
       nodeCompat: true,
     },
   },
+
+  runtimeConfig: {
+    ai: {
+      baseURL: '',
+      apiKey: '',
+      model: '',
+    },
+  },
 })

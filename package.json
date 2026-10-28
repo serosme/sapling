@@ -13,9 +13,12 @@
     "deploy": "pnpm run build && wrangler deploy"
   },
   "dependencies": {
+    "@ai-sdk/openai-compatible": "3.0.79",
+    "ai": "7.0.154",
     "nuxt": "4.6.3",
     "vue": "3.5.44",
-    "vue-router": "5.4.0"
+    "vue-router": "5.4.0",
+    "zod": "4.6.7"
   },
   "devDependencies": {
     "@antfu/eslint-config": "10.0.0",
