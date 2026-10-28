@@ -1,0 +1,9 @@
+minimumReleaseAge: 1440
+minimumReleaseAgeStrict: true
+minimumReleaseAgeExcludePrune: true
+trustPolicy: no-downgrade
+trustPolicyIgnoreAfter: 1440
+shellEmulator: true
+
+allowBuilds:
+  esbuild: true
