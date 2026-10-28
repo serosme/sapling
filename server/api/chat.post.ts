@@ -2,6 +2,7 @@ import type { ModelMessage } from 'ai'
 import type { ChatMessage } from '../db/chat-messages'
 import { createOpenAICompatible } from '@ai-sdk/openai-compatible'
 import { generateText, isLoopFinished } from 'ai'
+import { IDENTITY } from '../ai/identity'
 import { addChatMessage, listChatMessages } from '../db/chat-messages'
 import { tools } from '../tools'
 
@@ -33,6 +34,7 @@ export default defineEventHandler(async (event) => {
 
   const { text } = await generateText({
     model: provider(ai.model),
+    instructions: IDENTITY,
     messages: [
       ...history,
       { role: 'user', content: message },
