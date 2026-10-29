@@ -7,5 +7,6 @@ export const chatMessages = sqliteTable('chat_messages', {
     enum: ['user', 'assistant'],
   }).notNull(),
   content: text('content').notNull(),
+  processedAt: integer('processed_at', { mode: 'timestamp' }),
   createdAt: integer('created_at', { mode: 'timestamp' }).notNull().default(sql`(unixepoch())`),
 })

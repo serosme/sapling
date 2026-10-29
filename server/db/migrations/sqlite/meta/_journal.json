@@ -8,6 +8,20 @@
       "when": 1793188334906,
       "tag": "0000_light_madelyne_pryor",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1793255317111,
+      "tag": "0001_youthful_lightspeed",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1793259188511,
+      "tag": "0002_overjoyed_stranger",
+      "breakpoints": true
     }
   ]
 }
